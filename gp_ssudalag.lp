@@ -1,5 +1,5 @@
 /* Objective function */
-min: 5 y1m + 2 10000 y2p + 4 y2m + 3 10000 y3p;
+min: 5 y1m + 20000 y2p + 4 y2m + 30000 y3p;
 
 /*constraints*/
 12 x1 + 9 x2 + 15 x3 - y1p + y1m = 125;
