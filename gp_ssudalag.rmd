@@ -1,0 +1,24 @@
+---
+title: "gp_ssudalag"
+output: html_document
+---
+```{r}
+library("lpSolveAPI")
+x <- read.lp("gp_ssudalag.lp")
+x
+```
+
+now, solve the problem
+```{r}
+solve(x)
+get.objective(x)
+```
+get variables and contranints
+```{r}
+get.constraints(x)
+```
+get variables
+```{r}
+get.variables(x)
+```
+
